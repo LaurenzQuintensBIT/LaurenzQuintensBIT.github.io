@@ -69,7 +69,7 @@ body {
 
 .portfolio-img-background {
     height: 350px;
-    width: 90%;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -112,17 +112,38 @@ body {
 
 .two-column-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.5fr 1.5fr;
 }
 
 .profile-image-wrapper img {
-    width: 100%;
+    width: 90%;
+    padding: 30px;
 }
 
 .profile-content-wrapper {
-    padding: 30px;
+    padding: 45px;
+    text-align: justify;
 }
 
 .profile-content-wrapper h1 {
     color: lightseagreen;
+}
+
+.profile-content-wrapper a {
+    display: inline-block;
+    background: lightseagreen;
+    color: #ffff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid lightseagreen;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.profile-content-wrapper a:hover {
+    color: lightseagreen;
+    background: none;
 }
