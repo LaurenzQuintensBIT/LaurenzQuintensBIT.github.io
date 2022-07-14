@@ -60,7 +60,7 @@ body {
 
 .portfolio-items-wrapper {
     display: grid;
-    grid-template-columns: 0.9fr 0.9fr 0.9fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .portfolio-item-wrapper {
@@ -69,7 +69,7 @@ body {
 
 .portfolio-img-background {
     height: 350px;
-    width: 100%;
+    width: 90%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
