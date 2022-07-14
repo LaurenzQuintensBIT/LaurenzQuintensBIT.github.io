@@ -1,4 +1,4 @@
-/* MAster styles */
+/* Master styles */
 
 body {
     font-family: "Lato", sans-serif;
@@ -60,7 +60,7 @@ body {
 
 .portfolio-items-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 0.9fr 0.9fr 0.9fr;
 }
 
 .portfolio-item-wrapper {
